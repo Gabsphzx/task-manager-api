@@ -1,0 +1,46 @@
+# Gitignore for Spring Boot Project
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Eclipse
+.classpath
+.project
+.settings/
+*.jdt
+bin/
+
+# VS Code
+.settings
+.vscode/
+*.code-workspace
+
+# SonarQube
+.sonarqube/
+
+# Build
+/out/
+*.class
+*.jar
+*.log
+
+# Spring Boot
+application-*.properties
+application-*.yml
